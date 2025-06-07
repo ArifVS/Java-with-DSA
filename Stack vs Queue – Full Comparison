@@ -1,0 +1,7 @@
+| Feature   | **Stack** (LIFO)            | **Queue** (FIFO)             |          |                               |
+| --------- | --------------------------- | ---------------------------- | -------- | ----------------------------- |
+| Principle | **Last In, First Out**      | **First In, First Out**      |          |                               |
+| add()     | `push()` (top pe add karta) | `add()` (last me add karta)  |          |                               |
+| remove()  | `pop()` (top se remove)     | `remove()` (front se remove) |          |                               |
+| peek()    | Top element dekhta hai      | Front element dekhta hai     |          |                               |
+| isEmpty() | Same                        | Same                         |          |                               |
