@@ -15,11 +15,11 @@ class Main{
             if(i%2==0){
              for(int j=0;j<c;j++){
                 System.out.print(a[i][j]+" ");   
-             }   
+             } System.out.println();  
             }else{
                 for(int j=a.length-1;j>=0;j--){
                     System.out.print(a[i][j]+" ");
-                }
+                }System.out.println();
             }
         }
     }
