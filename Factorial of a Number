@@ -1,0 +1,14 @@
+// Factorial of a Number
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number:");
+        int n = sc.nextInt();
+        int res = 1;
+        for(int i=n;i>0;i--){
+            res = res*i;
+        }
+        System.out.print(res);
+    }
+}
